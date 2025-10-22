@@ -1,0 +1,28 @@
+{
+	"name": "made-worthy-media",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"@nuxt/eslint": "^1.9.0",
+		"@nuxt/ui": "^4.0.1",
+		"@nuxtjs/sitemap": "^7.4.7",
+		"@tailwindcss/vite": "^4.1.15",
+		"@unhead/vue": "^2.0.19",
+		"eslint": "^9.38.0",
+		"nuxt": "^4.1.3",
+		"nuxt-og-image": "^5.1.12",
+		"nuxt-seo-utils": "^7.0.18",
+		"tailwindcss": "^4.1.15",
+		"typescript": "^5.9.3",
+		"unstorage": "^1.17.1",
+		"vue": "^3.5.22",
+		"vue-router": "^4.6.3"
+	}
+}

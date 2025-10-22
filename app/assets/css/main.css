@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Earth Tone Color Theme for Tailwind v4 */
+@theme {
+	/* Primary Earth Tones */
+	--color-earth-sage: #8b9a7a; /* Soft sage green */
+	--color-earth-terracotta: #c67b5a; /* Warm terracotta */
+	--color-earth-clay: #a67c52; /* Rich clay brown */
+	--color-earth-sand: #d4c4a8; /* Warm sand beige */
+
+	/* Secondary Earth Tones */
+	--color-earth-moss: #6b7c5a; /* Deep moss green */
+	--color-earth-rust: #b85450; /* Rusty orange-brown */
+	--color-earth-stone: #8b8680; /* Cool stone gray */
+	--color-earth-cream: #f5f1e8; /* Soft cream */
+
+	/* Accent Colors */
+	--color-earth-gold: #d4a574; /* Golden wheat */
+	--color-earth-forest: #4a5d3a; /* Deep forest green */
+	--color-earth-burnt: #8b4513; /* Burnt sienna */
+	--color-earth-charcoal: #3c3c3c; /* Charcoal gray */
+
+	/* Neutral Earth Tones */
+	--color-earth-taupe: #b8a082; /* Warm taupe */
+	--color-earth-khaki: #9c8b6b; /* Military khaki */
+	--color-earth-cocoa: #6b4e3d; /* Rich cocoa brown */
+	--color-earth-ivory: #fdfcf8; /* Pure ivory */
+
+	/* Semantic Color Mappings */
+	--color-primary: var(--color-earth-sage);
+	--color-primary-dark: var(--color-earth-moss);
+	--color-secondary: var(--color-earth-terracotta);
+	--color-secondary-dark: var(--color-earth-rust);
+	--color-accent: var(--color-earth-gold);
+	--color-background: var(--color-earth-cream);
+	--color-surface: var(--color-earth-ivory);
+	--color-text-primary: var(--color-earth-charcoal);
+	--color-text-secondary: var(--color-earth-stone);
+	--color-border: var(--color-earth-sand);
+	--color-success: var(--color-earth-moss);
+	--color-warning: var(--color-earth-gold);
+	--color-error: var(--color-earth-rust);
+}
+
+/* Dark mode earth tones */
+@media (prefers-color-scheme: dark) {
+	@theme {
+		--color-background: var(--color-earth-cocoa);
+		--color-surface: var(--color-earth-charcoal);
+		--color-text-primary: var(--color-earth-cream);
+		--color-text-secondary: var(--color-earth-sand);
+		--color-border: var(--color-earth-stone);
+	}
+}
