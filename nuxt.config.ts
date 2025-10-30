@@ -4,7 +4,14 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
 	compatibilityDate: "2025-07-15",
 	devtools: { enabled: true },
-	modules: ["@nuxt/eslint", "@nuxt/ui", "nuxt-og-image", "@nuxtjs/sitemap", "nuxt-seo-utils"],
+	modules: [
+		"@nuxt/eslint",
+		"@nuxt/ui",
+		"nuxt-og-image",
+		"@nuxtjs/sitemap",
+		"nuxt-seo-utils",
+		"@nuxt/image"
+	],
 	css: ["~/assets/css/main.css"],
 	vite: {
 		plugins: [tailwindcss()]
@@ -21,5 +28,9 @@ export default defineNuxtConfig({
 				lang: "en"
 			}
 		}
+	},
+	image: {
+		quality: 80,
+		format: ["webp"]
 	}
 });
