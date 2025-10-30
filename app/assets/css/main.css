@@ -1,54 +1,50 @@
 @import "tailwindcss";
+@import "@nuxt/ui";
 
-/* Earth Tone Color Theme for Tailwind v4 */
+/* Brand Color Theme for Tailwind v4 */
 @theme {
-	/* Primary Earth Tones */
-	--color-earth-sage: #8b9a7a; /* Soft sage green */
-	--color-earth-terracotta: #c67b5a; /* Warm terracotta */
-	--color-earth-clay: #a67c52; /* Rich clay brown */
-	--color-earth-sand: #d4c4a8; /* Warm sand beige */
-
-	/* Secondary Earth Tones */
-	--color-earth-moss: #6b7c5a; /* Deep moss green */
-	--color-earth-rust: #b85450; /* Rusty orange-brown */
-	--color-earth-stone: #8b8680; /* Cool stone gray */
-	--color-earth-cream: #f5f1e8; /* Soft cream */
-
-	/* Accent Colors */
-	--color-earth-gold: #d4a574; /* Golden wheat */
-	--color-earth-forest: #4a5d3a; /* Deep forest green */
-	--color-earth-burnt: #8b4513; /* Burnt sienna */
-	--color-earth-charcoal: #3c3c3c; /* Charcoal gray */
-
-	/* Neutral Earth Tones */
-	--color-earth-taupe: #b8a082; /* Warm taupe */
-	--color-earth-khaki: #9c8b6b; /* Military khaki */
-	--color-earth-cocoa: #6b4e3d; /* Rich cocoa brown */
-	--color-earth-ivory: #fdfcf8; /* Pure ivory */
+	/* Brand palette */
+	--color-brand-light: #e9e1d6; /* light parchment */
+	--color-brand-sage: #a4a083; /* muted sage */
+	--color-brand-brown: #815a31; /* warm brown */
+	--color-brand-rust: #723016; /* deep rust */
+	--color-brand-ink: #442d1d; /* dark ink brown */
 
 	/* Semantic Color Mappings */
-	--color-primary: var(--color-earth-sage);
-	--color-primary-dark: var(--color-earth-moss);
-	--color-secondary: var(--color-earth-terracotta);
-	--color-secondary-dark: var(--color-earth-rust);
-	--color-accent: var(--color-earth-gold);
-	--color-background: var(--color-earth-cream);
-	--color-surface: var(--color-earth-ivory);
-	--color-text-primary: var(--color-earth-charcoal);
-	--color-text-secondary: var(--color-earth-stone);
-	--color-border: var(--color-earth-sand);
-	--color-success: var(--color-earth-moss);
-	--color-warning: var(--color-earth-gold);
-	--color-error: var(--color-earth-rust);
+	--color-primary: var(--color-brand-sage);
+	--color-primary-dark: var(--color-brand-brown);
+	--color-secondary: var(--color-brand-brown);
+	--color-secondary-dark: var(--color-brand-rust);
+	--color-accent: var(--color-brand-rust);
+	--color-background: var(--color-brand-light);
+	--color-surface: #ffffff;
+	--color-text-primary: var(--color-brand-ink);
+	--color-text-secondary: var(--color-brand-brown);
+	--color-border: var(--color-brand-sage);
+	--color-success: var(--color-brand-sage);
+	--color-warning: var(--color-brand-rust);
+	--color-error: var(--color-brand-rust);
 }
 
-/* Dark mode earth tones */
+/* Dark mode brand mappings */
 @media (prefers-color-scheme: dark) {
 	@theme {
-		--color-background: var(--color-earth-cocoa);
-		--color-surface: var(--color-earth-charcoal);
-		--color-text-primary: var(--color-earth-cream);
-		--color-text-secondary: var(--color-earth-sand);
-		--color-border: var(--color-earth-stone);
+		--color-background: var(--color-brand-ink);
+		--color-surface: var(--color-brand-rust);
+		--color-text-primary: var(--color-brand-light);
+		--color-text-secondary: var(--color-brand-sage);
+		--color-border: var(--color-brand-brown);
 	}
+}
+
+/* Global base colors */
+html,
+body {
+	background-color: var(--color-brand-light);
+	color: var(--color-text-brand-brown);
+}
+
+:root {
+	/* Expose a generic var some libs may look for */
+	--color-primary-raw: var(--color-primary);
 }
