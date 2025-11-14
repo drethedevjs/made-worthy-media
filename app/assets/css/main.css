@@ -48,3 +48,19 @@ body {
 	/* Expose a generic var some libs may look for */
 	--color-primary-raw: var(--color-primary);
 }
+
+.page-header {
+	@apply text-4xl font-serif text-amber-800;
+}
+
+.mwm-container {
+	@apply my-10 px-10!;
+}
+
+.font-script {
+	font-family: "Great Vibes", cursive;
+}
+
+p {
+	@apply text-2xl;
+}
