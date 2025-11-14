@@ -12,6 +12,16 @@ const items = computed<NavigationMenuItem[]>(() => [
 		label: "About",
 		to: "/about",
 		active: route.path.startsWith("/about")
+	},
+	{
+		label: "Services",
+		to: "/services",
+		active: route.path.startsWith("/services")
+	},
+	{
+		label: "Packages",
+		to: "/packages",
+		active: route.path.startsWith("/packages")
 	}
 ]);
 </script>
@@ -29,7 +39,7 @@ const items = computed<NavigationMenuItem[]>(() => [
 		</template>
 
 		<template #right>
-			<UColorModeButton />
+			<!-- <UColorModeButton /> -->
 		</template>
 	</UHeader>
 </template>
