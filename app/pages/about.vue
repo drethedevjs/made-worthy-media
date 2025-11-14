@@ -1,8 +1,14 @@
 <template>
-	<UContainer class="my-10 px-10!">
+	<UContainer class="mwm-container">
 		<section class="grid gap-4">
 			<h1 class="hidden">About</h1>
-			<h2 class="text-4xl text-center">My Mission & Vision</h2>
+
+			<div class="text-center">
+				<h2 class="page-header">My Mission & Vision</h2>
+				<p class="text-gray-600 italic mt-2 tracking-widest">
+					What I <span class="font-script text-4xl text-brand-brown">stand</span> for.
+				</p>
+			</div>
 
 			<p>
 				At Made Worthy Media, my mission is to capture the full story of your day. From the big,
