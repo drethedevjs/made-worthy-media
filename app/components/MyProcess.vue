@@ -40,13 +40,19 @@ const steps = ref([
 </script>
 
 <template>
-	<h2 class="text-4xl text-center mb-5">My Process</h2>
+	<h2 class="page-header text-center">My Process</h2>
 
-	<UTimeline :items="steps" />
+	<div v-for="step in steps">
+		<div class="flex flex-row mb-3 mt-5">
+			<UIcon :name="step.icon" class="size-5" />
+			<h3 class="text-2xl font-bold ml-3 text-brand-rust">{{ step.title }}</h3>
+		</div>
+		<p class="text-xl">{{ step.description }}</p>
+	</div>
 
 	<NuxtLink to="/contact">
 		<button
-			class="w-full bg-brand-ink rounded-md text-brand-light py-3 hover:bg-brand-light hover:text-brand-ink ring-1 ring-brand-ink transition-colors"
+			class="w-full mt-5 bg-brand-ink rounded-md text-brand-light py-3 hover:bg-brand-light hover:text-brand-ink ring-1 ring-brand-ink transition-colors"
 		>
 			Contact Me
 		</button>

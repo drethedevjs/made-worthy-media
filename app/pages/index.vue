@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import PageHero from "@/components/PageHero.vue";
+import AboutPane from "~/components/AboutPane.vue";
 
 const mwmAttrs = ref([
 	{
@@ -32,12 +33,33 @@ const mwmAttrs = ref([
 
 			<USeparator icon="i-lucide-camera" class="font-bold text-5xl" color="primary" />
 
-			<UPageSection
+			<div class="px-16 my-16">
+				<div class="text-center">
+					<h2 class="text-4xl font-bold mb-4 text-brand-rust">
+						Words to Describe Made Worthy Media
+					</h2>
+					<p>
+						These three words capture the heart of my approach—what Made Worthy Media stands for,
+						and how I preserve your wedding memories through video.
+					</p>
+				</div>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+					<div v-for="mwmAttr in mwmAttrs" :key="mwmAttr.title">
+						<div class="flex flex-row mb-3 mt-5 text-brand-rust">
+							<UIcon :name="mwmAttr.icon" class="size-8" />
+							<h3 class="text-3xl font-semibold ml-3">{{ mwmAttr.title }}</h3>
+						</div>
+						<p class="">{{ mwmAttr.description }}</p>
+					</div>
+				</div>
+			</div>
+			<!-- <UPageSection
 				title="Words to Describe Made Worthy Media"
 				description="These three words capture the heart of my approach—what Made Worthy Media stands for, and how I preserve your wedding memories through video."
 				:features="mwmAttrs"
 				class="text-brand-light!"
-			/>
+			/> -->
 		</UContainer>
 	</section>
 </template>
