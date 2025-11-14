@@ -7,7 +7,7 @@
 			src="/images/adeline-deverin.jpg"
 		/>
 
-		<h2 class="mt-5 text-2xl font-bold">About Me</h2>
+		<h2 class="mt-5 text-3xl font-bold text-brand-rust">About Me</h2>
 
 		<div class="text-justify px-8 pt-4 grid gap-4">
 			<p>
