@@ -3,11 +3,11 @@
 <template>
 	<section class="py-20 place-items-center">
 		<NuxtImg
-			class="rounded-full h-52 shadow-lg hover:scale-95 hover:rotate-1 transition-transform"
+			class="rounded-full h-52 lg:h-80 shadow-lg hover:scale-95 hover:rotate-1 transition-transform"
 			src="/images/adeline-deverin.jpg"
 		/>
 
-		<h2 class="mt-5 text-3xl font-bold text-brand-rust">About Me</h2>
+		<h2 class="mt-5 text-4xl lg:text-6xl font-bold text-brand-rust">About Me</h2>
 
 		<div class="text-justify px-8 pt-4 grid gap-4">
 			<p>
