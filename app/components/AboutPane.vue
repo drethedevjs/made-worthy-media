@@ -1,32 +1,24 @@
 <script setup lang="ts"></script>
 
 <template>
-	<section class="py-20 place-items-center">
-		<NuxtImg
-			class="rounded-full h-52 lg:h-80 shadow-lg hover:scale-95 hover:rotate-1 transition-transform"
-			src="/images/adeline-deverin.jpg"
-		/>
+	<section class="place-items-center bg-brand-ink">
+		<div class="flex flex-col-reverse lg:flex-row w-full">
+			<div class="w-full lg:w-5/12">
+				<NuxtImg src="/images/adeline-deverin.jpg" />
+			</div>
 
-		<h2 class="mt-5 text-4xl lg:text-6xl font-bold text-brand-rust">About Me</h2>
+			<div
+				class="w-full lg:w-7/12 text-brand-light uppercase text-center tracking-widest my-auto px-10"
+			>
+				<h2 class="text-8xl mb-5">Adeline Muff</h2>
+				<h3 class="text-5xl mb-10">Super 8 Film + Wedding Content Creation</h3>
 
-		<div class="text-justify px-8 pt-4 grid gap-4">
-			<p>
-				Welcome to a world where your love story unfolds through the timeless beauty of Super 8
-				film. I'm Adeleine, a passionate wedding videographer specializing in capturing your most
-				precious day in the warm, nostalgic aesthetic of analog film. While digital cameras capture
-				moments, Super 8 film preserves the soul of your wedding—the organic grain, the soft color
-				palette, and that dreamy, cinematic quality that transforms your special day into a living
-				memory.
-			</p>
-			<p>
-				Every frame tells the story of your love with an authenticity that digital simply cannot
-				replicate. Let me document your wedding day in a way that will transport you back to those
-				magical moments every time you watch it, creating a treasured keepsake that will be passed
-				down through generations.
-			</p>
-			<NuxtLink to="/about" class="place-self-center">
-				<button class="italic hover:underline font-semibold">Learn More</button>
-			</NuxtLink>
+				<div class="space-y-3 place-items-center">
+					<ContactMethod icon="i-lucide-mail" text="madeworthymedia@gmail.com" />
+					<ContactMethod icon="i-lucide-instagram" text="@madeworthymedia" />
+					<ContactMethod icon="i-lucide-map-pin" text="Based in Lexington, Kentucky" />
+				</div>
+			</div>
 		</div>
 	</section>
 </template>
