@@ -28,7 +28,7 @@ const toggleMenu = () => (mobileMenuOpen.value = !mobileMenuOpen.value);
 </script>
 
 <template>
-	<header class="bg-white border-b border-gray-200">
+	<header class="bg-white">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="flex justify-between items-center h-16">
 				<div class="shrink-0 font-bold text-xl text-brand-rust">Made Worthy Media</div>

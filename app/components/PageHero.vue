@@ -6,14 +6,22 @@
 		"
 	>
 		<!-- Overlay -->
-		<div class="absolute inset-0 bg-black opacity-40"></div>
+		<div class="absolute inset-0 bg-brand-sage opacity-40"></div>
 
 		<!-- Centered Content -->
 		<div class="absolute inset-0 flex flex-col items-center justify-center">
 			<h1 class="hidden text-6xl lg:text-8xl font-bold text-white text-center text-shadow-2xs">
 				Made Worthy Media
 			</h1>
-			<img src="/images/logo-transparent-wht.png" />
+			<img
+				src="/images/logo-transparent-wht.png"
+				alt="Made Worthy Media logo"
+				class="inline-block"
+				style="
+					-webkit-filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2));
+					filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.2));
+				"
+			/>
 			<h2 class="hidden text-lg lg:text-3xl text-white text-center mt-4 text-shadow-2xs">
 				Wedding content creation + Super 8 film
 			</h2>

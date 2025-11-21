@@ -27,7 +27,7 @@ const mwmAttrs = ref([
 
 <template>
 	<section>
-		<PageHero class="border-y-2" />
+		<PageHero class="border-y-2 border-y-brand-sage" />
 		<UContainer>
 			<AboutPane />
 
@@ -54,12 +54,6 @@ const mwmAttrs = ref([
 					</div>
 				</div>
 			</div>
-			<!-- <UPageSection
-				title="Words to Describe Made Worthy Media"
-				description="These three words capture the heart of my approach—what Made Worthy Media stands for, and how I preserve your wedding memories through video."
-				:features="mwmAttrs"
-				class="text-brand-light!"
-			/> -->
 		</UContainer>
 	</section>
 </template>
