@@ -63,5 +63,5 @@ body {
 }
 
 p {
-	@apply text-2xl;
+	@apply text-xl uppercase tracking-widest;
 }
