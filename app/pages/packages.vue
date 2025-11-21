@@ -32,7 +32,7 @@ const tiers = [
 	},
 	{
 		id: "afterglow",
-		title: "Afterglow",
+		title: "After Glow",
 		subtitle: "Tier 3",
 		price: "$4,400",
 		features: [
@@ -59,14 +59,14 @@ const tiers = [
 				:key="tier.id"
 				class="border border-amber-300 rounded-2xl p-8 shadow-md bg-amber-50 flex flex-col"
 			>
-				<h3 class="text-5xl font-script text-amber-800 mb-1 text-center">
+				<h3 class="text-4xl tracking-widest uppercase font-thin text-amber-800 mb-1 text-center">
 					{{ tier.title }}
 				</h3>
 				<p class="uppercase tracking-wide text-amber-700 text-sm mb-4 text-center">
 					{{ tier.subtitle }}
 				</p>
 
-				<ul class="space-y-2 text-sm text-gray-800 mb-6">
+				<ul class="space-y-2 text-gray-800 mb-6">
 					<li v-for="feature in tier.features" :key="feature" class="flex items-start gap-2">
 						<UIcon name="i-lucide-check" class="text-amber-600 mt-0.5" />
 						<span>{{ feature }}</span>
@@ -83,7 +83,7 @@ const tiers = [
 				/>
 			</div>
 		</div>
-		<ul class="uppercase mt-8 text-base md:text-2xl">
+		<ul class="uppercase mt-8 text-base md:text-2xl text-brand-rust space-y-2">
 			<li>Travel beyond 60 miles- custom based off of distance</li>
 			<li>Additional super 8 roll: <span class="text-brand-ink font-semibold">$250</span></li>
 			<li>Film with audio snippets: <span class="text-brand-ink font-semibold">$800</span></li>
