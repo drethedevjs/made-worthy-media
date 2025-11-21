@@ -9,6 +9,7 @@
 	--color-brand-brown: #815a31; /* warm brown */
 	--color-brand-rust: #723016; /* deep rust */
 	--color-brand-ink: #442d1d; /* dark ink brown */
+	--color-brand-super-package: #433a2c;
 
 	/* Semantic Color Mappings */
 	--color-primary: var(--color-brand-sage);
