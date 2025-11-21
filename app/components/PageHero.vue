@@ -10,13 +10,16 @@
 
 		<!-- Centered Content -->
 		<div class="absolute inset-0 flex flex-col items-center justify-center">
-			<h1 class="text-6xl lg:text-8xl font-bold text-white text-center text-shadow-2xs">
+			<h1 class="hidden text-6xl lg:text-8xl font-bold text-white text-center text-shadow-2xs">
 				Made Worthy Media
 			</h1>
-			<h2 class="text-lg lg:text-3xl text-white text-center mt-4 text-shadow-2xs">
+			<img src="/images/logo-transparent-wht.png" />
+			<h2 class="hidden text-lg lg:text-3xl text-white text-center mt-4 text-shadow-2xs">
 				Wedding content creation + Super 8 film
 			</h2>
-			<h2 class="text-xl lg:text-4xl text-brand-light text-center mt-8 font-light text-shadow-2xs">
+			<h2
+				class="hidden text-xl lg:text-4xl text-brand-light text-center mt-8 font-light text-shadow-2xs"
+			>
 				Candidly Captured. Eternally Worthy.
 			</h2>
 		</div>
