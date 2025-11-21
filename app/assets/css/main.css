@@ -50,7 +50,7 @@ body {
 }
 
 .page-header {
-	@apply text-4xl font-serif text-amber-800;
+	@apply text-4xl uppercase font-thin tracking-widest text-amber-800;
 }
 
 .mwm-container {
