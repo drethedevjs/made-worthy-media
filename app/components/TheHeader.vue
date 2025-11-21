@@ -31,7 +31,10 @@ const toggleMenu = () => (mobileMenuOpen.value = !mobileMenuOpen.value);
 	<header class="bg-white">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="flex justify-between items-center h-16">
-				<div class="shrink-0 font-bold text-xl text-brand-rust">Made Worthy Media</div>
+				<div class="shrink-0 font-bold text-xl text-brand-rust">
+					<!-- Made Worthy Media -->
+					<img src="/images/mwm-logo.png" alt="short brand logo" />
+				</div>
 
 				<nav class="hidden md:flex space-x-8">
 					<NuxtLink
