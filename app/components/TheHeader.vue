@@ -72,11 +72,11 @@ const toggleMenu = () => (mobileMenuOpen.value = !mobileMenuOpen.value);
 						:key="page.to"
 						v-for="page in pages"
 						:to="page.to"
-						class="block px-3 py-1 text-xl italic text-brand-light font-medium transition-colors"
+						class="block py-1 text-xl italic text-brand-light font-medium transition-colors"
 						@click="toggleMenu"
 					>
 						<li class="w-full border-b-2 border-b-brand-sage py-5 text-right">
-							{{ page.label }}
+							<span class="mr-10">{{ page.label }}</span>
 						</li>
 					</NuxtLink>
 				</ul>
