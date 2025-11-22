@@ -51,7 +51,7 @@ body {
 }
 
 .page-header {
-	@apply text-4xl uppercase font-thin tracking-widest text-amber-800;
+	@apply uppercase text-3xl md:text-5xl tracking-widest;
 }
 
 .mwm-container {
