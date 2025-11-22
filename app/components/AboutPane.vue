@@ -5,7 +5,7 @@ import ContactMethod from "./ContactMethod.vue";
 <template>
 	<section class="place-items-center bg-brand-ink">
 		<div class="flex lg:flex-row w-full">
-			<div class="hidden lg:w-5/12">
+			<div class="hidden lg:flex lg:w-5/12">
 				<NuxtImg src="/images/adeline-deverin.jpg" />
 			</div>
 
