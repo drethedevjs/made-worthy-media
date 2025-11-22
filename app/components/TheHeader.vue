@@ -13,14 +13,14 @@ const pages = computed(() => [
 		active: route.path.startsWith("/about")
 	},
 	{
-		label: "Services",
-		to: "/services",
-		active: route.path.startsWith("/services")
-	},
-	{
 		label: "Packages",
 		to: "/packages",
 		active: route.path.startsWith("/packages")
+	},
+	{
+		label: "Super 8",
+		to: "/super8",
+		active: route.path.startsWith("/super8")
 	}
 ]);
 
