@@ -33,7 +33,7 @@ const mwmAttrs = ref([
 
 		<USeparator icon="i-lucide-camera" class="font-bold text-5xl" color="primary" />
 
-		<div class="px-16 my-16">
+		<div class="px-8 lg:px-16 my-16">
 			<div class="text-center">
 				<h2 class="text-4xl font-bold mb-4 text-brand-rust">Words to Describe Made Worthy Media</h2>
 				<p>

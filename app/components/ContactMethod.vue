@@ -12,7 +12,7 @@ const { icon, text } = defineProps({
 </script>
 <template>
 	<div class="flex flex-row gap-4 items-center">
-		<UIcon :name="icon" class="size-20" />
-		<p class="text-3xl!">{{ text }}</p>
+		<UIcon :name="icon" class="size-5 lg:size-20" />
+		<p class="lg:text-3xl!">{{ text }}</p>
 	</div>
 </template>

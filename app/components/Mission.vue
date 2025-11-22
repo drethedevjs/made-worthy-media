@@ -10,7 +10,7 @@
 			</NuxtLink>
 		</div>
 
-		<div class="flex flex-row mb-8">
+		<div class="hidden md:flex flex-row mb-8">
 			<div class="w-1/3 uppercase relative">
 				<div class="absolute bottom-5 right-10 text-center tracking-widest">
 					<p>Super 8 Film</p>
@@ -36,8 +36,8 @@
 			</div>
 		</div>
 
-		<p class="mx-20 text-center">
-			my mission is to capture the full story of your day. From the big, unforgettable moments to
+		<p class="mx-5 lg:mx-20 text-center">
+			My mission is to capture the full story of your day. From the big, unforgettable moments to
 			the quiet, in-between ones that often mean the most. I believe there's beauty in the unposed
 			and power in the unplanned, and I'm here to preserve it all with intention and heart. I love
 			capturing heartfelt, candid content that helps people relive not just how their day looked,
