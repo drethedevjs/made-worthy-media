@@ -32,7 +32,6 @@ const toggleMenu = () => (mobileMenuOpen.value = !mobileMenuOpen.value);
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="flex justify-between items-center h-16">
 				<div class="shrink-0 font-bold text-xl text-brand-rust">
-					<!-- Made Worthy Media -->
 					<img src="/images/mwm-logo.png" alt="short brand logo" />
 				</div>
 
@@ -67,8 +66,8 @@ const toggleMenu = () => (mobileMenuOpen.value = !mobileMenuOpen.value);
 			</div>
 		</div>
 		<div>
-			<nav class="flex md:hidden w-full absolute shadow-2xs" v-show="mobileMenuOpen">
-				<ul class="flex flex-col bg-brand-rust w- absolute right-5 rounded-lg">
+			<nav class="flex md:hidden w-full absolute shadow-2xs z-10" v-show="mobileMenuOpen">
+				<ul class="flex flex-col bg-brand-rust w-3/4 absolute right-0 rounded-lg">
 					<NuxtLink
 						:key="page.to"
 						v-for="page in pages"
