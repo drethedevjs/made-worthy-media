@@ -48,7 +48,7 @@ const tiers = [
 <template>
 	<section class="bg-brand-super-package px-5 md:px-32 py-16">
 		<div class="md:mb-12">
-			<h2 class="text-brand-light uppercase text-3xl md:text-5xl">Super 8 Packages</h2>
+			<h2 class="text-brand-light page-header">Super 8 Packages</h2>
 		</div>
 
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
