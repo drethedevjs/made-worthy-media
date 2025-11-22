@@ -41,7 +41,7 @@ const toggleMenu = () => (mobileMenuOpen.value = !mobileMenuOpen.value);
 						:key="page.to"
 						:to="page.to"
 						:class="[
-							'px-3 py-2 text-sm font-medium italic transition-colors',
+							'px-3 py-2 transition-colors',
 							page.active
 								? 'text-brand-brown border-b-2 border-brand-brown'
 								: 'text-gray-700 hover:text-brand-brown'
@@ -72,7 +72,7 @@ const toggleMenu = () => (mobileMenuOpen.value = !mobileMenuOpen.value);
 						:key="page.to"
 						v-for="page in pages"
 						:to="page.to"
-						class="block py-1 text-xl italic text-brand-light font-medium transition-colors"
+						class="block py-1 text-xl text-brand-light font-medium transition-colors"
 						@click="toggleMenu"
 					>
 						<li class="w-full border-b-2 border-b-brand-sage py-5 text-right">

@@ -10,7 +10,8 @@ export default defineNuxtConfig({
 		"nuxt-og-image",
 		"@nuxtjs/sitemap",
 		"nuxt-seo-utils",
-		"@nuxt/image"
+		"@nuxt/image",
+		"@nuxt/fonts"
 	],
 	css: ["~/assets/css/main.css"],
 	vite: {

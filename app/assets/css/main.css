@@ -65,3 +65,12 @@ body {
 p {
 	@apply lg:text-xl uppercase tracking-widest;
 }
+
+body,
+header {
+	font-family: "Tay Big Bird";
+}
+
+.font-noir {
+	font-family: "Noir Et Blanc";
+}

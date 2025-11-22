@@ -78,13 +78,13 @@ const addOns = [
 
 			<div v-for="cPackage in contentPackages" :key="cPackage.id" class="p-5 flex flex-col">
 				<div class="justify-between flex">
-					<h3 class="xl:text-xl text-lg uppercase tracking-wider text-brand-brown mb-2">
+					<h3 class="xl:text-2xl text-lg uppercase tracking-wider text-brand-brown mb-2">
 						{{ cPackage.title }}
 					</h3>
-					<p class="text-xl tracking-widest text-brand-brown mb-4">{{ cPackage.price }}</p>
+					<p class="text-2xl! tracking-widest text-brand-brown mb-4">{{ cPackage.price }}</p>
 				</div>
 
-				<ul class="space-y-2 uppercase text-brand-brown mb-6 list-disc ml-8">
+				<ul class="space-y-2 uppercase text-brand-brown mb-6 list-disc ml-8 text-lg">
 					<li
 						v-for="feature in cPackage.features"
 						:key="feature"
@@ -102,7 +102,7 @@ const addOns = [
 					<tr
 						v-for="item in addOns"
 						:key="item.service"
-						class="border-b-2 border-dashed text-xl h-32"
+						class="border-b-2 border-dashed text-2xl h-32"
 					>
 						<td>{{ item.price }}</td>
 						<td class="pl-32">{{ item.service }}</td>

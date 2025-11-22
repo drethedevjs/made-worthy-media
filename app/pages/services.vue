@@ -8,9 +8,8 @@ const services = ref(serviceData);
 		<UContainer class="mwm-container">
 			<div class="text-center mb-12">
 				<h2 class="page-header">Services</h2>
-				<p class="text-gray-600 italic mt-2 tracking-widest">
-					A <span class="font-script text-4xl text-brand-brown">snapshot</span> of the services I
-					offer.
+				<p class="text-gray-600 mt-2 tracking-widest">
+					A <span class="text-4xl text-brand-brown">snapshot</span> of the services I offer.
 				</p>
 				<p>
 					Each package includes raw and unedited iPhone footage, fast delivery, BTS moments,

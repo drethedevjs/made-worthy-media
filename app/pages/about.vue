@@ -5,8 +5,8 @@
 
 			<div class="text-center">
 				<h2 class="page-header">My Mission & Vision</h2>
-				<p class="text-gray-600 italic mt-2 tracking-widest">
-					What I <span class="font-script text-4xl text-brand-brown">stand</span> for.
+				<p class="text-gray-600 mt-2 tracking-widest">
+					What I <span class="font-noir text-4xl text-brand-brown">stand</span> for.
 				</p>
 			</div>
 
